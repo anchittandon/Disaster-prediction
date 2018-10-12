@@ -10,8 +10,10 @@ As it is quite clear that flood and drought are indeed important and devastating
 
 # Process
 So how are we going to do it? We are going to use machine learning, deep learning and statistical learning theory to train our model to predict the calamity. We have got our data from Indian Govt Website (https://data.gov.in/resources/district-rainfall-normal-mm-monthly-seasonal-and-annual-data-period-1951-2000), it contains the monthly, annual and seasonal rainfall data of each state and their major district of India. The data is 50 years, from 1951-2000. Also we are getting instantaneous data of rainfall (visually data after each day) from Indian Meteorological Department (http://hydro.imd.gov.in/hydrometweb/(S(4py24b55cjhnute4evewhr55))/landing.aspx).The data looks like this.
+
 Phase 1:
 Simple Prediction using the above stated model. Independent analysis of the data( independent in the sense that rainfall in Uttrakhand will not have any effect on the people living in Delhi)
+
 Phase 2:
 Correlational Analysis.
 It is quite possible that a heavy rainfall in North can bring flood in all the areas which are in the vicinity of that area, and it is also important to analyse that part. So after making the basic model, we'll try to incorporate this aspect also in our model.
@@ -19,6 +21,7 @@ It is quite possible that a heavy rainfall in North can bring flood in all the a
 
 # Methodology
 We will decide the class labels or the threshold for flood or drought from previous flood or drought event to make accurate predictions. We are going to use parametric, non-parametric, supervised and non supervised learning method to make our model more flexible and robust.
+
 After that for # UI experience we are going to make an Android App for the same. The android app will the geolocation API of android to detect the location of the user and will fetch the rainfall from Meteorogical Department, then on the back-end we will run the algorithm to predict the chances of any calamity in the area and will notify the user simultaneously in Real Time.
 
 
@@ -26,8 +29,11 @@ After that for # UI experience we are going to make an Android App for the same.
 1.Training the model on previous data.
 
 2.Taking USER's Location from the APP.
-3.Running the algo at back-end
+
+3.Running the algo at back-end.
+
 4.Predicting the chances of flood.
+
 5.Notifying the User.
 
 
