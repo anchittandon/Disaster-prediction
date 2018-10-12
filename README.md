@@ -23,11 +23,12 @@ After that for # UI experience we are going to make an Android App for the same.
 
 
 # Summary
-Training the model on previous data.
-Taking USER's Location from the APP.
-Running the algo at back-end
-Predicting the chances of flood.
-Notifying the User.
+1.Training the model on previous data.
+
+2.Taking USER's Location from the APP.
+3.Running the algo at back-end
+4.Predicting the chances of flood.
+5.Notifying the User.
 
 
 # Conclusion
