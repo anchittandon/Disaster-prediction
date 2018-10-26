@@ -32,7 +32,6 @@ def predict():
     # print(get_rain())
     return fp.prediction1([[states[get_location()],get_rain()]])
 def alert():
-    return str(time.time())
     var=predict()
     if(var==0):
         return "You are completely safe"
